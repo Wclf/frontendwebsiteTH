@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tư vấn - TH True Milk</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" href="images/icons/Iconweb.png" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script nonce="a59887a5-5ba1-43b5-b539-38f2ef65210f">
+        (function (w, d) {
+            !(function (a, b, c, d) {
+                a[c] = a[c] || {};
+                a[c].executed = [];
+                a.zaraz = { deferred: [], listeners: [] };
+                a.zaraz.q = [];
+                a.zaraz._f = function (e) {
+                    return async function () {
+                        var f = Array.prototype.slice.call(arguments);
+                        a.zaraz.q.push({ m: e, a: f });
+                    };
+                };
+                for (const g of ["track", "set", "debug"]) a.zaraz[g] = a.zaraz._f(g);
+                a.zaraz.init = () => {
+                    var h = b.getElementsByTagName(d)[0],
+                        i = b.createElement(d),
+                        j = b.getElementsByTagName("title")[0];
+                    j && (a[c].t = b.getElementsByTagName("title")[0].text);
+                    a[c].x = Math.random();
+                    a[c].w = a.screen.width;
+                    a[c].h = a.screen.height;
+                    a[c].j = a.innerHeight;
+                    a[c].e = a.innerWidth;
+                    a[c].l = a.location.href;
+                    a[c].r = b.referrer;
+                    a[c].k = a.screen.colorDepth;
+                    a[c].n = b.characterSet;
+                    a[c].o = new Date().getTimezoneOffset();
+                    if (a.dataLayer)
+                        for (const n of Object.entries(
+                            Object.entries(dataLayer).reduce(
+                                (o, p) => ({ ...o[1], ...p[1] }),
+                                {}
+                            )
+                        ))
+                            zaraz.set(n[0], n[1], { scope: "page" });
+                    a[c].q = [];
+                    for (; a.zaraz.q.length;) {
+                        const q = a.zaraz.q.shift();
+                        a[c].q.push(q);
+                    }
+                    i.defer = !0;
+                    for (const r of [localStorage, sessionStorage])
+                        Object.keys(r || {})
+                            .filter((t) => t.startsWith("_zaraz_"))
+                            .forEach((s) => {
+                                try {
+                                    a[c]["z_" + s.slice(7)] = JSON.parse(r.getItem(s));
+                                } catch {
+                                    a[c]["z_" + s.slice(7)] = r.getItem(s);
+                                }
+                            });
+                    i.referrerPolicy = "origin";
+                    i.src =
+                        "/cdn-cgi/zaraz/s.js?z=" +
+                        btoa(encodeURIComponent(JSON.stringify(a[c])));
+                    h.parentNode.insertBefore(i, h);
+                };
+                ["complete", "interactive"].includes(b.readyState)
+                    ? zaraz.init()
+                    : a.addEventListener("DOMContentLoaded", zaraz.init);
+            })(w, d, "zarazData", "script");
+        })(window, document);
+    </script>
+</head>
+
+<body class="animsition">
+    <header>
+        <div class="wrap-menu-header gradient1 trans-0-4">
+            <div class="container h-full">
+                <div class="wrap_header trans-0-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/icons/logoTH.png" alt="IMG-LOGO"
+                                data-logofixed="images/icons/logoTH2.png" />
+                        </a>
+                    </div>
+
+                    <div class="wrap_menu p-l-45 p-l-0-xl">
+                        <nav class="menu">
+                            <ul class="main_menu">
+                                <li>
+                                    <a href="index.html">Trang chủ</a>
+                                </li>
+                                <li>
+                                    <a href="product.html">Sản Phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Cửa Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">Câu chuyện thật TH</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">Tư vấn</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="social flex-w flex-l-m p-r-20">
+                        <a href="https://www.youtube.com/@THtrueMILKvn"><i class="fa fa-youtube m-l-21" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/thmilk"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/THTrueMilk2"><i class="fa fa-twitter m-l-21" aria-hidden="true"></i></a>
+                        <button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar trans-0-4">
+        <button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+
+        <ul class="menu-sidebar p-t-95 p-b-70">
+            <li class="t-center m-b-13">
+                <a href="index.html" class="txt19">Trang chủ</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="product.html" class="txt19">Sản phẩm</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="shop.html" class="txt19">Cửa hàng</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="about.html" class="txt19">Câu chuyện thật TH</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="blog.html" class="txt19">Tư vấn</a>
+            </li>
+            <li class="t-center m-b-33">
+                <a href="contact.html" class="txt19">Liên hệ</a>
+            </li>
+
+        </ul>
+
+        <div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
+            <h4 class="txt20 m-b-33">Sản phẩm mới</h4>
+
+            <div class="wrap-gallery-sidebar flex-w">
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-1.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-2.png"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-3.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-3.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-1.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-2.png"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-1.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-3.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-2.png"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15"
+        style="background-image: url(images/bg-title-page-3.jpg)">
+        <h2 class="tit6 t-center">Tư vấn</h2>
+    </section>
+
+    <section>
+        <div class="bread-crumb bo5-b p-t-17 p-b-17">
+            <div class="container">
+                <a href="index.html" class="txt27"> Trang chủ </a>
+                <span class="txt29 m-l-10 m-r-10">/</span>
+                <span class="txt29"> Tư vấn </span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-9">
+                    <div class="p-t-80 p-b-124 bo5-r h-full p-r-50 p-r-0-md bo-none-md">
+                        <div class="blo4 p-b-63">
+                            <div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
+                                <a href="blog-detail.html">
+                                    <img src="images/blog-5.jpg" alt="IMG-BLOG" />
+                                </a>
+                                <div class="date-blo4 flex-col-c-m">
+                                    <span class="txt30 m-b-4"> 20 </span>
+                                    <span class="txt31"> Jul, 2015 </span>
+                                </div>
+                            </div>
+                            <div class="text-blo4 p-t-33">
+                                <h4 class="p-b-16">
+                                    <a href="blog-detail.html" class="tit9">Bổ sung dưỡng chất cùng sữa chua ăn men sống việt quất tự nhiên </a>
+                                </h4>
+                                <div class="txt32 flex-w p-b-24">
+                                    <span>
+                                        by Admin
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        20 July, 2015
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        Yogurt
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span> 8 Comments </span>
+                                </div>
+                                <p>
+                                    Một cốc sữa chua việt quất đánh đá chua nhẹ xen cùng vị ngọt dịu không chi đem tới cảm giác mát lạnh khoan khoái mà còn bổ sung những dưỡng chất vô cùng thiết yếu cho cơ thể, để bạn cùng gia đình sẵn sàng cho một tuần làm việc hiệu quả.
+                                </p>
+                                <a href="blog-detail.html" class="dis-block txt4 m-t-30">
+                                    Tiếp tục đọc
+                                    <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="blo4 p-b-63">
+                            <div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
+                                <a href="blog-detail.html">
+                                    <img src="images/blog-6.jpg" alt="IMG-BLOG" />
+                                </a>
+                                <div class="date-blo4 flex-col-c-m">
+                                    <span class="txt30 m-b-4"> 30 </span>
+                                    <span class="txt31"> Jun, 2015 </span>
+                                </div>
+                            </div>
+                            <div class="text-blo4 p-t-33">
+                                <h4 class="p-b-16">
+                                    <a href="blog-detail.html" class="tit9">Bí quyết làm trà sữa giải nhiệt mùa hè</a>
+                                </h4>
+                                <div class="txt32 flex-w p-b-24">
+                                    <span>
+                                        by Admin
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        30 June, 2015
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        Milk
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span> 8 Comments </span>
+                                </div>
+                                <p>
+                                    Mùa hè sẽ mát lịm hơn bao giờ hết khi bạn được đắm chìm trong hương trà bạc hà xanh mát và trái tim bạn sẽ luôn vui khỏe mỗi ngày nếu vị trà đó được quyện trong dòng sữa tươi TH tiệt trùng bổ sung Phytosterol ngọt lành.
+                                </p>
+                                <a href="blog-detail.html" class="dis-block txt4 m-t-30">
+                                    Tiếp tục đọc
+                                    <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="blo4 p-b-63">
+                            <div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
+                                <a href="blog-detail.html">
+                                    <img src="images/blog-7.jpg" alt="IMG-BLOG" />
+                                </a>
+                                <div class="date-blo4 flex-col-c-m">
+                                    <span class="txt30 m-b-4"> 3 </span>
+                                    <span class="txt31"> Aug, 2015 </span>
+                                </div>
+                            </div>
+                            <div class="text-blo4 p-t-33">
+                                <h4 class="p-b-16">
+                                    <a href="blog-detail.html" class="tit9">Mì gà sốt kem nấm</a>
+                                </h4>
+                                <div class="txt32 flex-w p-b-24">
+                                    <span>
+                                        by Admin
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        3 August, 2015
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        Food
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span> 8 Comments </span>
+                                </div>
+                                <p>
+                                    Nếu như bạn yêu thích các món ăn của Ý, thay vì đi ra các nhà hàng đắt đỏ thì các bạn có thể làm ở nhà mà hương vị không hề thua kém nhé. Để làm được điều đó thì hãy theo dõi “cách làm mì Ý sốt kem gà” dưới đây.
+                                </p>
+                                <a href="blog-detail.html" class="dis-block txt4 m-t-30">
+                                    Tiếp tục đọc
+                                    <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="blo4 p-b-63">
+                            <div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
+                                <a href="blog-detail.html">
+                                    <img src="images/blog-4.jpg" alt="IMG-BLOG" />
+                                </a>
+                                <div class="date-blo4 flex-col-c-m">
+                                    <span class="txt30 m-b-4"> 3 </span>
+                                    <span class="txt31"> Mar, 2015 </span>
+                                </div>
+                            </div>
+                            <div class="text-blo4 p-t-33">
+                                <h4 class="p-b-16">
+                                    <a href="blog-detail.html" class="tit9">5 lý do nên chọn sữa tươi thanh trùng th true milk</a>
+                                </h4>
+                                <div class="txt32 flex-w p-b-24">
+                                    <span>
+                                        by Admin
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        3 March, 2015
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        Milk
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span> 8 Comments </span>
+                                </div>
+                                <p>
+                                    Nhờ công nghệ thanh trùng ESL hiện đại, không chất bảo quản, lại hạn chế tối đa việc sử dụng đường, sữa thanh trùng TH true MILK không chỉ giữ vẹn nguyên hương vị tươi mát của sữa tươi sạch mà còn chú trọng chăm sóc sức khỏe người dùng.
+                                </p>
+                                <a href="blog-detail.html" class="dis-block txt4 m-t-30">
+                                    Tiếp tục đọc
+                                    <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="blo4 p-b-63">
+                            <div class="pic-blo4 hov-img-zoom bo-rad-10 pos-relative">
+                                <a href="blog-detail.html">
+                                    <img src="images/blog-8.jpg" alt="IMG-BLOG" />
+                                </a>
+                                <div class="date-blo4 flex-col-c-m">
+                                    <span class="txt30 m-b-4"> 8 </span>
+                                    <span class="txt31"> Oct, 2014 </span>
+                                </div>
+                            </div>
+                            <div class="text-blo4 p-t-33">
+                                <h4 class="p-b-16">
+                                    <a href="blog-detail.html" class="tit9">Sữa tươi sạch th true milk công thức top kid - nền tảng tối ưu cho bé</a>
+                                </h4>
+                                <div class="txt32 flex-w p-b-24">
+                                    <span>
+                                        by Admin
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        8 October, 2014
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span>
+                                        Milk
+                                        <span class="m-r-6 m-l-4">|</span>
+                                    </span>
+                                    <span> 8 Comments </span>
+                                </div>
+                                <p>
+                                    Việc chọn sữa cho con luôn là một trong những mối quan tâm hàng đầu của các bà mẹ, nhất là khi bé bước vào tuổi đi mẫu giáo.
+                                </p>
+                                <a href="blog-detail.html" class="dis-block txt4 m-t-30">
+                                    Tiếp tục đọc
+                                    <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="pagination flex-l-m flex-w m-l--6 p-t-25">
+                            <a href="#" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
+                            <a href="#" class="item-pagination flex-c-m trans-0-4">2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="sidebar2 p-t-80 p-b-80 p-l-20 p-l-0-md p-t-0-md">
+                        <div class="search-sidebar2 size12 bo2 pos-relative">
+                            <input class="input-search-sidebar2 txt10 p-l-20 p-r-55" type="text" name="search"
+                                placeholder="Search" />
+                            <button class="btn-search-sidebar2 flex-c-m fa fa-search trans-0-4"></button>
+                        </div>
+
+                        <div class="categories">
+                            <h4 class="txt33 bo5-b p-b-35 p-t-58">Danh sách</h4>
+                            <ul>
+                                <li class="bo5-b p-t-8 p-b-8">
+                                    <a href="#" class="txt27"> Tư vấn sử dụng sữa </a>
+                                </li>
+                                <li class="bo5-b p-t-8 p-b-8">
+                                    <a href="#" class="txt27"> Bí quyết khỏe đẹp tự nhiên </a>
+                                </li>
+                                <li class="bo5-b p-t-8 p-b-8">
+                                    <a href="#" class="txt27"> Bí quyết chăm sóc con cái </a>
+                                </li>
+                                <li class="bo5-b p-t-8 p-b-8">
+                                    <a href="#" class="txt27"> Phong cách sống xanh </a>
+                                </li>
+                                <li class="bo5-b p-t-8 p-b-8">
+                                    <a href="#" class="txt27"> Thức ăn ngon th food </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="popular">
+                            <h4 class="txt33 p-b-35 p-t-58">Most popular</h4>
+                            <ul>
+                                <li class="flex-w m-b-25">
+                                    <div class="size16 bo-rad-10 wrap-pic-w of-hidden m-r-18">
+                                        <a href="#">
+                                            <img src="images/blog-9.jpg" alt="IMG-BLOG" />
+                                        </a>
+                                    </div>
+                                    <div class="size28">
+                                        <a href="#" class="dis-block txt28 m-b-8">
+                                            Sử dụng sữa với các món ăn
+                                        </a>
+                                        <span class="txt14"> 3 days ago </span>
+                                    </div>
+                                </li>
+                                <li class="flex-w m-b-25">
+                                    <div class="size16 bo-rad-10 wrap-pic-w of-hidden m-r-18">
+                                        <a href="#">
+                                            <img src="images/blog-9.jpg" alt="IMG-BLOG" />
+                                        </a>
+                                    </div>
+                                    <div class="size28">
+                                        <a href="#" class="dis-block txt28 m-b-8">
+                                            Sử dụng sữa với các món ăn
+                                        </a>
+                                        <span class="txt14"> July 2, 2023 </span>
+                                    </div>
+                                </li>
+                                <li class="flex-w m-b-25">
+                                    <div class="size16 bo-rad-10 wrap-pic-w of-hidden m-r-18">
+                                        <a href="#">
+                                            <img src="images/blog-9.jpg" alt="IMG-BLOG" />
+                                        </a>
+                                    </div>
+                                    <div class="size28">
+                                        <a href="#" class="dis-block txt28 m-b-8">
+                                            Sử dụng sữa với các món ăn
+                                            
+                                        </a>
+                                        <span class="txt14"> May 28, 2023 </span>
+                                    </div>
+                                </li>
+                                <li class="flex-w m-b-25">
+                                    <div class="size16 bo-rad-10 wrap-pic-w of-hidden m-r-18">
+                                        <a href="#">
+                                            <img src="images/blog-9.jpg" alt="IMG-BLOG" />
+                                        </a>
+                                    </div>
+                                    <div class="size28">
+                                        <a href="#" class="dis-block txt28 m-b-8">
+                                            Sử dụng sữa với các món ăn
+                                            
+                                        </a>
+                                        <span class="txt14"> May 25, 2023 </span>
+                                    </div>
+                                </li>
+                                <li class="flex-w m-b-25">
+                                    <div class="size16 bo-rad-10 wrap-pic-w of-hidden m-r-18">
+                                        <a href="#">
+                                            <img src="images/blog-9.jpg" alt="IMG-BLOG" />
+                                        </a>
+                                    </div>
+                                    <div class="size28">
+                                        <a href="#" class="dis-block txt28 m-b-8">
+                                            Sử dụng sữa với các món ăn
+                                            
+                                        </a>
+                                        <span class="txt14"> May 2, 2023 </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg1">
+        <div class="container p-t-40 p-b-70">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 p-t-50">
+                    <h4 class="txt13 m-b-33">Liên hệ với chúng tôi</h4>
+                    <ul class="m-b-70">
+                        <li class="txt14 m-b-14">
+                            <i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
+                            166 Nguyễn Thái Học, P. Quang Trung, TP. Vinh, Nghệ An
+                        </li>
+                        <li class="txt14 m-b-14">
+                            <i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
+                            1800 545 440
+                        </li>
+                        <li class="txt14 m-b-14">
+                            <i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
+                            <a href="#">chamsockhachhang@thmilk.vn</a>
+                        </li>
+                    </ul>
+
+                    <h4 class="txt13 m-b-32">Giờ mở cửa</h4>
+                    <ul>
+                        <li class="txt14">08:30 AM – 11:00 PM</li>
+                        <li class="txt14">Hàng ngày</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4 p-t-50">
+                    <h4 class="txt13 m-b-33">Liên hệ khác</h4>
+                    <div class="m-b-25">
+                        <span class="fs-13 color2 m-r-5">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </span>
+                        <a href="https://www.facebook.com/thmilk" class="txt15"> THTrue </a>
+                        <p class="txt14 m-b-18">
+                            TH true mart là chuỗi cửa hàng bán lẻ của TH, chuyên cung cấp sản phẩm <br>
+                            <a href="https://www.facebook.com/thmilk" class="txt15"> https://facebook/THTrue </a>
+                        </p>
+                    </div>
+                    <div>
+                        <span class="fs-13 color2 m-r-5">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </span>
+                        <a href="https://twitter.com/THTrueMilk2" class="txt15"> @THTrue </a>
+                        <p class="txt14 m-b-18">
+                            TH true mart là chuỗi cửa hàng bán lẻ của TH, chuyên cung cấp sản phẩm <br>
+                            <a href="https://twitter.com/THTrueMilk2" class="txt15"> https://twitter/THTrue </a>
+                        </p>
+                    </div>
+                    <div>
+                        <span class="fs-13 color2 m-r-5">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </span>
+                        <a href="https://www.youtube.com/@THtrueMILKvn" class="txt15"> THTrue-Channel </a>
+                        <p class="txt14 m-b-18">
+                            TH true mart là chuỗi cửa hàng bán lẻ của TH, chuyên cung cấp sản phẩm <br>
+                            <a href="https://www.youtube.com/@THtrueMILKvn" class="txt15"> https://youtube/THTrueChannel </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 p-t-50">
+                    <h4 class="txt13 m-b-38">Sản phẩm mới</h4>
+
+                    <div class="wrap-gallery-footer flex-w">
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-footer bg2">
+            <div class="container">
+                <div class="flex-sb-m flex-w p-t-22 p-b-22">
+                    <div class="p-t-5 p-b-5">
+                        <a href="https://www.youtube.com/@THtrueMILKvn" class="fs-15 c-white"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/thmilk" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/THTrueMilk2" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="txt17 p-r-20 p-t-5 p-b-5">
+                        @ 2023 
+                        <a href="#" class="txt18"> TH True Company </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+
+    <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+
+    <script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+    <script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick-custom.js"></script>
+
+    <script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+    <script type="text/javascript">
+        $(".parallax100").parallax100();
+    </script>
+
+    <script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+
+    <script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+
+    <script type="text/javascript" src="vendor/isotope/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="vendor/smoothscrolling/smooth-scrolling.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+        integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+        data-cf-beacon='{"rayId":"812d845fe8e50f28","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

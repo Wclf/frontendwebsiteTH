@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Liên hệ - TH True Milk</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" href="images/icons/Iconweb.png" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+
+    <link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script nonce="1f73ce3b-4f44-4971-9739-9b79656bcdfd">
+        (function (w, d) {
+            !(function (a, b, c, d) {
+                a[c] = a[c] || {};
+                a[c].executed = [];
+                a.zaraz = { deferred: [], listeners: [] };
+                a.zaraz.q = [];
+                a.zaraz._f = function (e) {
+                    return async function () {
+                        var f = Array.prototype.slice.call(arguments);
+                        a.zaraz.q.push({ m: e, a: f });
+                    };
+                };
+                for (const g of ["track", "set", "debug"]) a.zaraz[g] = a.zaraz._f(g);
+                a.zaraz.init = () => {
+                    var h = b.getElementsByTagName(d)[0],
+                        i = b.createElement(d),
+                        j = b.getElementsByTagName("title")[0];
+                    j && (a[c].t = b.getElementsByTagName("title")[0].text);
+                    a[c].x = Math.random();
+                    a[c].w = a.screen.width;
+                    a[c].h = a.screen.height;
+                    a[c].j = a.innerHeight;
+                    a[c].e = a.innerWidth;
+                    a[c].l = a.location.href;
+                    a[c].r = b.referrer;
+                    a[c].k = a.screen.colorDepth;
+                    a[c].n = b.characterSet;
+                    a[c].o = new Date().getTimezoneOffset();
+                    if (a.dataLayer)
+                        for (const n of Object.entries(
+                            Object.entries(dataLayer).reduce(
+                                (o, p) => ({ ...o[1], ...p[1] }),
+                                {}
+                            )
+                        ))
+                            zaraz.set(n[0], n[1], { scope: "page" });
+                    a[c].q = [];
+                    for (; a.zaraz.q.length;) {
+                        const q = a.zaraz.q.shift();
+                        a[c].q.push(q);
+                    }
+                    i.defer = !0;
+                    for (const r of [localStorage, sessionStorage])
+                        Object.keys(r || {})
+                            .filter((t) => t.startsWith("_zaraz_"))
+                            .forEach((s) => {
+                                try {
+                                    a[c]["z_" + s.slice(7)] = JSON.parse(r.getItem(s));
+                                } catch {
+                                    a[c]["z_" + s.slice(7)] = r.getItem(s);
+                                }
+                            });
+                    i.referrerPolicy = "origin";
+                    i.src =
+                        "/cdn-cgi/zaraz/s.js?z=" +
+                        btoa(encodeURIComponent(JSON.stringify(a[c])));
+                    h.parentNode.insertBefore(i, h);
+                };
+                ["complete", "interactive"].includes(b.readyState)
+                    ? zaraz.init()
+                    : a.addEventListener("DOMContentLoaded", zaraz.init);
+            })(w, d, "zarazData", "script");
+        })(window, document);
+    </script>
+</head>
+
+<body class="animsition">
+    <header>
+        <div class="wrap-menu-header gradient1 trans-0-4">
+            <div class="container h-full">
+                <div class="wrap_header trans-0-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/icons/logoTH.png" alt="IMG-LOGO"
+                                data-logofixed="images/icons/logoTH2.png" />
+                        </a>
+                    </div>
+
+                    <div class="wrap_menu p-l-45 p-l-0-xl">
+                        <nav class="menu">
+                            <ul class="main_menu">
+                                <li>
+                                    <a href="index.html">Trang chủ</a>
+                                </li>
+                                <li>
+                                    <a href="product.html">Sản Phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html">Cửa Hàng</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">Câu chuyện thật TH</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">Tư vấn</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="social flex-w flex-l-m p-r-20">
+                        <a href="https://www.youtube.com/@THtrueMILKvn"><i class="fa fa-youtube m-l-21" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/thmilk"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/THTrueMilk2"><i class="fa fa-twitter m-l-21" aria-hidden="true"></i></a>
+                        <button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside class="sidebar trans-0-4">
+        <button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+
+        <ul class="menu-sidebar p-t-95 p-b-70">
+            <li class="t-center m-b-13">
+                <a href="index.html" class="txt19">Trang chủ</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="product.html" class="txt19">Sản phẩm</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="shop.html" class="txt19">Cửa hàng</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="about.html" class="txt19">Câu chuyện thật TH</a>
+            </li>
+            <li class="t-center m-b-13">
+                <a href="blog.html" class="txt19">Tư vấn</a>
+            </li>
+            <li class="t-center m-b-33">
+                <a href="contact.html" class="txt19">Liên hệ</a>
+            </li>
+
+        </ul>
+
+        <div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
+            <h4 class="txt20 m-b-33">Sản phẩm mới</h4>
+
+            <div class="wrap-gallery-sidebar flex-w">
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-1.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-2.png"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-3.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-3.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-1.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-2.png"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-1.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-3.jpg"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                </a>
+                <a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-2.png"
+                    data-lightbox="gallery-footer">
+                    <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15"
+        style="background-image: url(images/bg-title-page-2.jpg)">
+        <h2 class="tit6 t-center">Liên hệ</h2>
+    </section>
+
+    <section class="section-contact bg1-pattern p-t-90 p-b-113">
+        <div class="container">
+            <div class="map bo8 bo-rad-10 of-hidden">
+                <div class="contact-map size37" id="google_map" data-map-x="21" data-map-y="106" data-scrollwhell="0" data-draggable="1"></div>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="tit7 t-center p-b-62 p-t-105">Gửi chúng tôi lời nhắn</h3>
+            <form class="wrap-form-reservation size22 m-l-r-auto">
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="txt9"> Tên </span>
+                        <div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                            <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name" placeholder="Tên" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="txt9"> Email </span>
+                        <div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                            <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email"
+                                placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="txt9"> Số điện thoại </span>
+                        <div class="wrap-inputphone size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                            <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone"
+                                placeholder="Số điện thoại" />
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <span class="txt9"> Lời nhắn </span>
+                        <textarea class="bo-rad-10 size35 bo2 txt10 p-l-20 p-t-15 m-b-10 m-t-3" name="message"
+                            placeholder="Lời nhắn"></textarea>
+                    </div>
+                </div>
+                <div class="wrap-btn-booking flex-c-m m-t-13">
+                    <button type="submit" class="btn3 flex-c-m size36 txt11 trans-0-4">
+                        Gửi
+                    </button>
+                </div>
+            </form>
+            <div class="row p-t-135">
+                <div class="col-sm-8 col-md-4 col-lg-4 m-l-r-auto p-t-30">
+                    <div class="dis-flex m-l-23">
+                        <div class="p-r-40 p-t-6">
+                            <img src="images/icons/map-icon.png" alt="IMG-ICON" />
+                        </div>
+                        <div class="flex-col-l">
+                            <span class="txt5 p-b-10"> Vị trí </span>
+                            <span class="txt23 size38">
+                                166 Nguyễn Thái Học, P. Quang Trung, TP. Vinh, Nghệ An
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-3 col-lg-4 m-l-r-auto p-t-30">
+                    <div class="dis-flex m-l-23">
+                        <div class="p-r-40 p-t-6">
+                            <img src="images/icons/phone-icon.png" alt="IMG-ICON" />
+                        </div>
+                        <div class="flex-col-l">
+                            <span class="txt5 p-b-10"> Gọi cho chúng tôi </span>
+                            <span class="txt23 size38"> 1800 545 440 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-5 col-lg-4 m-l-r-auto p-t-30">
+                    <div class="dis-flex m-l-23">
+                        <div class="p-r-40 p-t-6">
+                            <img src="images/icons/clock-icon.png" alt="IMG-ICON" />
+                        </div>
+                        <div class="flex-col-l">
+                            <span class="txt5 p-b-10"> Giờ mở cửa </span>
+                            <span class="txt23 size38">
+                                09:30 AM – 11:00 PM <br />Hàng ngày
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg1">
+        <div class="container p-t-40 p-b-70">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 p-t-50">
+                    <h4 class="txt13 m-b-33">Liên hệ với chúng tôi</h4>
+                    <ul class="m-b-70">
+                        <li class="txt14 m-b-14">
+                            <i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
+                            166 Nguyễn Thái Học, P. Quang Trung, TP. Vinh, Nghệ An
+                        </li>
+                        <li class="txt14 m-b-14">
+                            <i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
+                            1800 545 440
+                        </li>
+                        <li class="txt14 m-b-14">
+                            <i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
+                            <a href="#">chamsockhachhang@thmilk.vn</a>
+                        </li>
+                    </ul>
+
+                    <h4 class="txt13 m-b-32">Giờ mở cửa</h4>
+                    <ul>
+                        <li class="txt14">08:30 AM – 11:00 PM</li>
+                        <li class="txt14">Hàng ngày</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4 p-t-50">
+                    <h4 class="txt13 m-b-33">Liên hệ khác</h4>
+                    <div class="m-b-25">
+                        <span class="fs-13 color2 m-r-5">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </span>
+                        <a href="https://www.facebook.com/thmilk" class="txt15"> THTrue </a>
+                        <p class="txt14 m-b-18">
+                            TH true mart là chuỗi cửa hàng bán lẻ của TH, chuyên cung cấp sản phẩm <br>
+                            <a href="https://www.facebook.com/thmilk" class="txt15"> https://facebook/THTrue </a>
+                        </p>
+                    </div>
+                    <div>
+                        <span class="fs-13 color2 m-r-5">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </span>
+                        <a href="https://twitter.com/THTrueMilk2" class="txt15"> @THTrue </a>
+                        <p class="txt14 m-b-18">
+                            TH true mart là chuỗi cửa hàng bán lẻ của TH, chuyên cung cấp sản phẩm <br>
+                            <a href="https://twitter.com/THTrueMilk2" class="txt15"> https://twitter/THTrue </a>
+                        </p>
+                    </div>
+                    <div>
+                        <span class="fs-13 color2 m-r-5">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </span>
+                        <a href="https://www.youtube.com/@THtrueMILKvn" class="txt15"> THTrue-Channel </a>
+                        <p class="txt14 m-b-18">
+                            TH true mart là chuỗi cửa hàng bán lẻ của TH, chuyên cung cấp sản phẩm <br>
+                            <a href="https://www.youtube.com/@THtrueMILKvn" class="txt15"> https://youtube/THTrueChannel </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 p-t-50">
+                    <h4 class="txt13 m-b-38">Sản phẩm mới</h4>
+
+                    <div class="wrap-gallery-footer flex-w">
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-1.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-1.jpg" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-2.png"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-2.png" alt="PRODUCT" />
+                        </a>
+                        <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-3.jpg"
+                            data-lightbox="gallery-footer">
+                            <img src="images/photo-product-thumb-3.jpg" alt="PRODUCT" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-footer bg2">
+            <div class="container">
+                <div class="flex-sb-m flex-w p-t-22 p-b-22">
+                    <div class="p-t-5 p-b-5">
+                        <a href="https://www.youtube.com/@THtrueMILKvn" class="fs-15 c-white"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/thmilk" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/THTrueMilk2" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="txt17 p-r-20 p-t-5 p-b-5">
+                        @ 2023 
+                        <a href="#" class="txt18"> TH True Company </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <div id="dropDownSelect1"></div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+    <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+
+    <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+
+    <script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
+    <script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick-custom.js"></script>
+
+    <script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+    <script type="text/javascript">
+        $(".parallax100").parallax100();
+    </script>
+
+    <script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+
+    <script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+    <script src="js/map-custom.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="vendor/smoothscrolling/smooth-scrolling.js"></script>
+
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+        integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+        data-cf-beacon='{"rayId":"812d84361a7a0f28","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
